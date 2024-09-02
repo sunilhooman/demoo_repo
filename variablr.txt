@@ -1,0 +1,48 @@
+var a;=== declare
+a=20; ==== initialize
+var a=20;====declaration
+a=40;=====reinialization
+var a=50;=====redeclaration
+
+type of data types--
+1. primitive data type- any variable can store single value/data:
+a. Number
+b.string
+c.boolean
+d.undefined
+e.Null
+f.Bigint
+g. Symbol
+
+
+
+
+2. Non-primitive data type- can sore mutiple value/data:
+a. Array
+b. Object
+c. Function
+d. Date
+
+conditional statemnets:
+if(condition){
+
+}
+else if(){
+
+}
+else{
+
+}
+(condition)?trueExpression:falseExpression
+
+
+eg:
+age=18;
+if(age>=18){
+    console.log("age is 18")
+}
+else{
+    console.log("age is not 18")
+}
+ternary:
+(age>=18) ? console.log("age is 18"):console.log("age is not 18")
